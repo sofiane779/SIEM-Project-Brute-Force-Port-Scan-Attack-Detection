@@ -14,6 +14,6 @@ This folder contains critical screenshots that serve as proof for the analysis a
 * **Description:** Shows the raw event logs (`| table _time, _raw`) after filtering for the attacker IP (`| regex _raw="192\\.168\\.8\\.114"`).
 * **Key Finding:** This confirms the exact time window of the attack (peaking in 2018, with activity seen as late as November 4, 2019) and validates that the events are genuine `Audit Failure` logs related to the brute-force attempt.
 
-## 4. Alert_Config.png (Implementation Proof)
+## 4. Splunk_alert.png (Implementation Proof)
 * **Description:** Screenshot of the Splunk Alert creation interface.
 * **Key Finding:** Proves the successful industrialization of the detection logic into an automated, scheduled alert (`Type: Scheduled`) that triggers when the attack count exceeds the threshold (e.g., `Count > 0` for the query which already filters on `Attack_Count > 5`).
