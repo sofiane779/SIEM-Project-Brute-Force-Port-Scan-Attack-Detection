@@ -38,15 +38,15 @@ Based on the execution of the detection rule and subsequent visualization (Triag
 ## 📁 Repository Structure
 
 ```
-├── DETECTION_BREAKDOWN.md <-- Detailed explanation of the SPL logic
-├── EVIDENCE/ │
-|   ├── Splunk_alert.png <-- Proof of Alert Implementation │
-|   ├── EVIDENCE_GUIDE.md <-- Documentation for all images │
-|   ├── SPLK_VISU.png <-- Timechart visualization (Triage) │
-|   ├── SPLK_VISU2.png <-- Statistics visualization (Final Count) │
-|   └── SPLK_RESULTS.png <-- Raw event triage (Time validation)
-├── LICENSE <-- MIT License file
-└── README.md <-- Project summary (This file)
+├── DETECTION_BREAKDOWN.md 
+├── EVIDENCE/ 
+|   ├── Splunk_alert.png  
+|   ├── EVIDENCE_GUIDE.md  
+|   ├── SPLK_VISU.png  
+|   ├── SPLK_VISU2.png  
+|   └── SPLK_RESULTS.png 
+├── LICENSE 
+└── README.md 
 ```
 
 
